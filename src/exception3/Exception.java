@@ -1,5 +1,5 @@
 
-package exception;
+package exception3;
 import java.util.Scanner;
 
 public class Exception {
@@ -14,6 +14,9 @@ public class Exception {
             System.out.println("Divisor cannot be zero");
         }
     }
-    
-    
+
+    String getMessage() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+ 
 }
